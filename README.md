@@ -1,6 +1,12 @@
 # Help Genie 🤝💯
 
-An AI-powered code editor with multi-language support that helps you build applications using natural language. Get instant coding help, explanations, and code suggestions with our intelligent coding assistant.
+An AI-powered code editor with multi-language support that helps you build applications using natural language. Get instant coding help, explanations, and code suggestions with our intelligent coding assistant. The application combines a Monaco-based code editor with HuggingFace's AI models to offer code generation, explanations, and debugging support across 21+ programming languages.
+
+# Access the project 
+
+**Try Live on 
+
+**Web Interface on 
 
 ## Features
 
@@ -22,11 +28,38 @@ An AI-powered code editor with multi-language support that helps you build appli
 ## Tech Stack
 
 - **Frontend**: HTML5, CSS3, JavaScript, Tailwind CSS
-- **Code Editor**: Monaco Editor (VS Code's editor)
+- **Code Editor**: Monaco Editor (VS Code's editor)for Industry-standard code editor (VS Code's editor engine) for syntax highlighting and code editing across multiple languages
 - **AI Integration**: HuggingFace Transformers
+- **Tailwind CSS**: Utility-first CSS framework for responsive, mobile-first design
 - **Backend**: Flask (Python)
 - **Icons**: Font Awesome
 - **Fonts**: Cormorant Garamond, Karla, Spectral, IBM Plex Mono, Elianto
+
+## External Dependencies
+
+### Third-Party Services
+- **HuggingFace CDN**: Delivers Transformers.js library and AI models for client-side inference
+- **Cloudflare CDN**: Hosts Monaco Editor, Font Awesome icons, and Tailwind CSS
+- **Google Fonts API**: Serves custom web fonts (Cormorant Garamond, Karla, Spectral)
+- **OnlineWebFonts**: Serves Elianto font family
+
+### Python Dependencies
+- **Flask 3.1.2**: Lightweight WSGI web framework for serving static files
+- **Werkzeug 3.1.3**: WSGI utility library (Flask dependency)
+- **Jinja2 3.1.6**: Template engine (Flask dependency, minimal usage)
+- **Click 8.3.0**: Command-line interface toolkit (Flask dependency)
+
+### Frontend Libraries (CDN-based)
+- **Monaco Editor 0.44.0**: Code editor component
+- **HuggingFace Transformers.js 3.0.0**: Browser-based AI model inference
+- **Tailwind CSS**: Latest version via CDN (utility-first CSS framework)
+- **Font Awesome 6.4.0**: Icon library
+
+### Browser APIs & Features
+The application relies on modern browser capabilities:
+- ES6 Modules for HuggingFace integration
+- WebAssembly for AI model execution
+- Service Workers (potentially, for offline functionality)
 
 ## Installation
 
@@ -144,6 +177,12 @@ Note: The HTML is served as a static file (not as a Jinja2 template) to preserve
 
 - `GET /` - Main application page
 - `GET /health` - Health check endpoint
+
+## Deployment Configuration
+- **Environment Variables**: 
+  - `PORT`: Server port (default: 5000)
+  - `FLASK_ENV`: Development/production mode toggle
+  - `SESSION_SECRET`: Flask secret key for security
 
 ## Browser Support
 
