@@ -214,7 +214,7 @@ This project is available for educational and personal use.and licensed under MI
 
 For questions or issues, please contact the developer
 **Reaishma N**
-**email ID vra.9618@gmail.com**
+**Email ID vra.9618@gmail.com**
 
 ---
 
