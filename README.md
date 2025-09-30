@@ -9,9 +9,7 @@ An AI-powered code editor with multi-language support that helps you build appli
 
 **Try Live on https://help-genie.vercel.app/**
 
-**Web Interface on https://reaishma.github.io/Help-Genie/**
-
-<\p>
+**Web Interface on https://reaishma.github.io/Help-Genie/**<\p>
 
 ## Features
 
