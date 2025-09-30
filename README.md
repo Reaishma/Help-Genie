@@ -167,12 +167,14 @@ Contributions are welcome! Feel free to submit issues and pull requests.
 
 ## License
 
-This project is available for educational and personal use.
+This project is available for educational and personal use.and licensed under MIT LICENCE 
 
 ## Support
 
-For questions or issues, please contact the development team.
+For questions or issues, please contact the developer
+**Reaishma N**
+**email ID vra.9618@gmail.com**
 
 ---
 
-**Note**: This application uses CDN-hosted libraries for development. For production use, consider hosting these resources locally or using a build process.
+
