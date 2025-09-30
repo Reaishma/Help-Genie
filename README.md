@@ -4,7 +4,7 @@ An AI-powered code editor with multi-language support that helps you build appli
 
 # Access the project 
 
-**Try Live on 
+**Try Live on https://help-genie.vercel.app/**
 
 **Web Interface on 
 
