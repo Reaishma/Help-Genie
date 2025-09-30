@@ -1,5 +1,5 @@
 
-<centre># Help Genie 🤝💯</centre>
+<p align=center># Help Genie 🤝💯</p>
 
 An AI-powered code editor with multi-language support that helps you build applications using natural language. Get instant coding help, explanations, and code suggestions with our intelligent coding assistant. The application combines a Monaco-based code editor with HuggingFace's AI models to offer code generation, explanations, and debugging support across 21+ programming languages.
 
